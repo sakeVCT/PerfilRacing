@@ -4,45 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porta-Chaves Personalizados Acrílico | Perfil Racing Portugal</title>
-    <meta name="description" content="Crie o seu Porta-Chaves em Acrílico 100% Personalizado com o Perfil Exato do teu Carro. Corte a Laser, Envio Rápido em Portugal. Orçamento via WhatsApp!">
+    <meta name="description" content="Crie o seu Porta-Chaves em Acrílico 100% Personalizado. Corte a Laser, Envio Rápido em Portugal. Orçamento via WhatsApp!">
 
     <link rel="preload" as="image" href="imagem.webp" type="image/webp" fetchpriority="high">
 
     <style>
-        body{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;margin:0;padding:0;background-color:#f8f9fa;color:#121212;line-height:1.6}
+        body{font-family:sans-serif;margin:0;padding:0;background-color:#f8f9fa;color:#121212;line-height:1.6}
         .container{width:90%;max-width:800px;margin:auto;text-align:center}
-        header{background-color:#000;color:#fff;padding:30px 0;border-bottom:4px solid #0056b3}
-        .brand-name{font-size:2.2em;letter-spacing:4px;font-weight:700;margin:0}
-        .brand-name span{font-weight:300;letter-spacing:2px}
-        .subtitle{font-size:1.1rem;color:#fff;margin-top:10px;font-weight:400}
-        .hero-section{padding:30px 20px 40px 20px;background-color:#fff}
-        .hero-img{width:100%;max-width:600px;height:auto;border-radius:12px;display:block;margin:0 auto 25px auto}
+        header{background-color:#000;color:#fff;padding:20px 0;border-bottom:4px solid #0056b3}
+        .brand-name{font-size:2em;letter-spacing:2px;font-weight:700;margin:0}
+        .subtitle{font-size:1rem;margin-top:5px}
+        .hero-section{padding:20px;background-color:#fff}
+        .hero-img{width:100%;max-width:500px;height:auto;border-radius:12px;display:block;margin:0 auto 20px auto}
+        .btn-whatsapp{display:inline-block;background-color:#128c7e;color:#fff;font-weight:700;padding:15px 30px;border-radius:50px;text-decoration:none}
     </style>
-    
+
     <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
 
     <script>
-        window.addEventListener('load', function() {
-            var script = document.createElement('script');
-            script.async = true;
-            script.src = "https://www.googletagmanager.com/gtag/js?id=G-99Y33Z3L7EZ";
-            document.head.appendChild(script);
-            
-            script.onload = function() {
+        function loadScripts() {
+            var gtm = document.createElement('script');
+            gtm.src = "https://www.googletagmanager.com/gtag/js?id=G-99Y33Z3L7EZ";
+            gtm.async = true;
+            document.head.appendChild(gtm);
+            gtm.onload = function() {
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
                 gtag('config', 'G-99Y33Z3L7EZ');
             };
-        });
+        }
+        window.addEventListener('scroll', loadScripts, { once: true });
+        setTimeout(loadScripts, 5000);
     </script>
 </head>
 <body>
 
     <header role="banner">
         <div class="container">
-            <p class="brand-name"><span>PERFIL</span>RACING</p>
-            <h1 class="subtitle">Porta-chaves Personalizados de Carros e Motos em Acrílico</h1>
+            <p class="brand-name">PERFILRACING</p>
+            <h1 class="subtitle">Porta-chaves Personalizados em Acrílico</h1>
         </div>
     </header>
 
@@ -50,56 +51,26 @@
         <section class="hero-section">
             <div class="container">
                 <h2>O Perfil do Teu Carro no Teu Bolso.</h2>
-                <p class="hero-text">
-                    Criamos o teu porta-chaves com o perfil exato do teu carro, logótipos ou matrículas. Acrílico premium e detalhe de corrida.
-                </p>
-
                 <picture>
                     <source srcset="imagem.webp" type="image/webp">
                     <img src="imagem.jpg" 
-                         alt="Porta-chaves PerfilRacing em acrílico com silhueta de carro desportivo" 
+                         alt="Porta-chaves PerfilRacing" 
                          class="hero-img" 
-                         width="600" 
-                         height="400"
+                         width="500" 
+                         height="333"
                          fetchpriority="high"
                          loading="eager">
                 </picture>
-
                 <div class="cta-wrapper">
-                    <a href="https://wa.me/351938844766?text=Olá!%20Gostaria%20de%20encomendar%20um%20porta-chaves%20em%20acrílico%20personalizado%20da%20PerfilRacing." class="btn-whatsapp">
-                        ENCOMENDAR O MEU AGORA
-                    </a>
-                    <p class="caption">Envie o teu pedido de orçamento via WhatsApp!</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="features-section">
-            <div class="container">
-                <h3 class="section-title">Porquê escolher os Porta-chaves PerfilRacing?</h3>
-                <div class="features">
-                    <article class="feature-card">
-                        <h3>✂️ Corte a Laser de Alta Precisão</h3>
-                        <p>Contornos perfeitos e detalhados. Fazemos o formato exato do teu projeto, garantindo máxima fidelidade.</p>
-                    </article>
-                    <article class="feature-card">
-                        <h3>💎 Acabamento Acrílico Premium</h3>
-                        <p>Acrílico cristalino de alta resistência com gravação fosca elegante.</p>
-                    </article>
-                    <article class="feature-card">
-                        <h3>🚗 100% Personalizável</h3>
-                        <p>Do modelo do teu carro a logótipos de clubes ou matrículas.</p>
-                    </article>
+                    <a href="https://wa.me/351938844766?text=Ola" class="btn-whatsapp">ENCOMENDAR AGORA</a>
+                    <p style="color:#000; font-weight:700; margin-top:15px;">Peça via WhatsApp!</p>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer role="contentinfo">
-        <div class="container">
-            <p>Produzido em Portugal com ❤️ e Laser. Envio para todo o País.</p>
-            <p>&copy; 2025 PerfilRacing.</p>
-        </div>
+    <footer role="contentinfo" style="background:#000; color:#fff; padding:20px 0; text-align:center;">
+        <p>&copy; 2025 PerfilRacing.</p>
     </footer>
 
 </body>
