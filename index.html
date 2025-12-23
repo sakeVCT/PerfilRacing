@@ -5,17 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porta-Chaves Personalizados Acrílico | Perfil Racing Portugal</title>
     <meta name="description" content="Crie o seu Porta-Chaves em Acrílico 100% Personalizado com o Perfil Exato do teu Carro. Corte a Laser, Envio Rápido em Portugal. Orçamento via WhatsApp!">
-    
+
     <link rel="preload" as="image" href="imagem.webp" type="image/webp" fetchpriority="high">
+
+    <style>
+        body{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;margin:0;padding:0;background-color:#f8f9fa;color:#121212;line-height:1.6}
+        .container{width:90%;max-width:800px;margin:auto;text-align:center}
+        header{background-color:#000;color:#fff;padding:30px 0;border-bottom:4px solid #0056b3}
+        .brand-name{font-size:2.2em;letter-spacing:4px;font-weight:700;margin:0}
+        .brand-name span{font-weight:300;letter-spacing:2px}
+        .subtitle{font-size:1.1rem;color:#fff;margin-top:10px;font-weight:400}
+        .hero-section{padding:30px 20px 40px 20px;background-color:#fff}
+        .hero-img{width:100%;max-width:600px;height:auto;border-radius:12px;display:block;margin:0 auto 25px auto}
+    </style>
     
-    <link rel="stylesheet" href="style.css">
-    
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-99Y33Z3L7EZ"></script>
+    <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
+
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-99Y33Z3L7EZ');
+        window.addEventListener('load', function() {
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = "https://www.googletagmanager.com/gtag/js?id=G-99Y33Z3L7EZ";
+            document.head.appendChild(script);
+            
+            script.onload = function() {
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-99Y33Z3L7EZ');
+            };
+        });
     </script>
 </head>
 <body>
@@ -63,12 +82,10 @@
                         <h3>✂️ Corte a Laser de Alta Precisão</h3>
                         <p>Contornos perfeitos e detalhados. Fazemos o formato exato do teu projeto, garantindo máxima fidelidade.</p>
                     </article>
-
                     <article class="feature-card">
                         <h3>💎 Acabamento Acrílico Premium</h3>
                         <p>Acrílico cristalino de alta resistência com gravação fosca elegante.</p>
                     </article>
-
                     <article class="feature-card">
                         <h3>🚗 100% Personalizável</h3>
                         <p>Do modelo do teu carro a logótipos de clubes ou matrículas.</p>
