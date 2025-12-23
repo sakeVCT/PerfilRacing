@@ -74,20 +74,18 @@ header {
     border-radius: 50px;
     text-decoration: none;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    transition: transform 0.2s ease;
 }
 
 .btn-whatsapp:hover, .btn-whatsapp:focus {
-    transform: scale(1.05);
     background-color: #075e54;
     outline: 3px solid #000000;
 }
 
 .caption {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-top: 15px;
-    color: #333333;
-    font-weight: 500;
+    color: #000000;
+    font-weight: 600;
 }
 
 .section-title {
@@ -120,9 +118,13 @@ header {
     color: #004494;
 }
 
+.feature-card p {
+    color: #1a1a1a;
+}
+
 footer {
     background-color: #000000;
-    color: #eeeeee;
+    color: #ffffff;
     padding: 40px 0;
     font-size: 1rem;
 }
