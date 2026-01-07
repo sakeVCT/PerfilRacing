@@ -70,7 +70,7 @@ nav a.active { color: var(--primary-green); border-bottom: 2px solid var(--prima
 
 /* --- REGRA DOS TÍTULOS (H1) UNIFICADA --- */
 h1 { 
-    font-size: 1.8rem; /* Tamanho igual para todas as páginas */
+    font-size: 1rem; /* Tamanho igual para todas as páginas */
     text-align: center; 
     margin: 20px auto; 
     text-transform: uppercase; 
