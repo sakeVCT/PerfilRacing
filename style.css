@@ -1,6 +1,6 @@
 /* style.css - VERSÃO FINAL COM TÍTULOS UNIFICADOS */
 :root {
-    --primary-green: #25D366;
+    --primary-green: #FF0000; /* Alterado para vermelho */
     --bg-white: #ffffff;
     --light-gray: #f4f4f4;
     --text-dark: #1a1a1a;
@@ -70,7 +70,7 @@ nav a.active { color: var(--primary-green); border-bottom: 2px solid var(--prima
 
 /* --- REGRA DOS TÍTULOS (H1) UNIFICADA --- */
 h1 { 
-    font-size: 1rem; /* Tamanho igual para todas as páginas */
+    font-size: 1rem; 
     text-align: center; 
     margin: 20px auto; 
     text-transform: uppercase; 
@@ -150,6 +150,6 @@ footer {
     nav { flex-direction: row; justify-content: space-between; }
     nav ul { width: auto; gap: 20px; }
     nav a { font-size: 0.85rem; }
-    h1 { font-size: 1.8rem; margin: 30px auto; } /* Mantido 1.8 conforme pedido */
+    h1 { font-size: 1.8rem; margin: 30px auto; }
     .gallery-grid { display: grid; grid-template-columns: repeat(2, 1fr); }
 }
