@@ -1,6 +1,6 @@
 /* style.css - VERSÃO FINAL COM TÍTULOS UNIFICADOS */
 :root {
-    --primary-green: #FF0000; /* Alterado para vermelho */
+    --primary-green: green; /* Alterado para vermelho */
     --bg-white: #ffffff;
     --light-gray: #f4f4f4;
     --text-dark: #1a1a1a;
